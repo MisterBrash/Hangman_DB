@@ -3,10 +3,8 @@
  * Author: Mr. Brash
  */
 
-document.addEventListener("load", example)
+// This runs as soon as the script is loaded.
+document.getElementById("random_title").innerText = getTitle(0)
 
-function example() {
-  document.getElementById("random_title").innerText = getTitle(0)
-}
 
 
