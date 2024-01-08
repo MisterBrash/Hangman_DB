@@ -3,7 +3,7 @@
  * Author: Mr. Brash
  */
 
-document.body.addEventListener("load", example)
+document.addEventListener("load", example)
 
 function example() {
   document.getElementById("random_title").innerText = getTitle(0)
